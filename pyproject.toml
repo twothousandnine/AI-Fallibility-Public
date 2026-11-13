@@ -1,0 +1,18 @@
+[project]
+name = "ai-fallibility"
+version = "1.0.0"
+description = "Data and analysis code accompanying the AI fallibility manuscript."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.3,<4.0.0)",
+    "numpy (>=2.5.1,<3.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
